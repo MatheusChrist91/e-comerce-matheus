@@ -4,14 +4,33 @@ const Exercicio06 = () => {
 
     const cores = ['vermelho', 'azul', 'amarelo', 'verde', 'roxo'];
 
-      const coresPrimarias = cores.filter((item) => item === 'vermelho' || item === 'azul' || item === 'amarelo')
-      console.log(coresPrimarias)
+    /* const corPrima = "vermelho";
 
-      if (cores.includes('vermelho') && cores.includes('amarelo') && cores.includes('azul')){
-        console.log('Existe cores primárias')
-      } else {
-        console.log('Não existem cores primárias')
-      }
+  const coresSearch = [];
+
+  cores.forEach((cor) => {
+    if (["vermelho", "azul", "amarelo"].includes(cor)) {
+      coresSearch.push(cor);
+    }
+  });
+
+  return (
+    <div>
+      <h1>Exercio 06</h1>
+      {coresSearch.map((cor, index) => (
+        <div key={index}>
+          <ul>
+            <li>{cor}</li>
+          </ul>
+        </div>
+      )) */
+
+      
+
+  const coresPrimarias = cores.filter((item) =>
+    ["vermelho", "azul", "amarelo"].includes(item)
+  );
+
 
 
     

@@ -7,6 +7,14 @@ import Exercicio03 from '../Exercicios/Exercicio03'
 import Exercicio04 from '../Exercicios/Exercicio04'
 import Exercicio05 from '../Exercicios/Exercicio05'
 import Exercicio06 from '../Exercicios/Exercicio06'
+import ExercicioUseState1 from '../Exercicios02/ExercicioUseState1'
+import ExercicioUseState2 from '../Exercicios02/ExercicioUseState2'
+import ExercicioUseState3 from '../Exercicios02/ExercicioUseState3'
+import ExercicioUseState4 from '../Exercicios02/ExercicioUseState4'
+import ExercicioUseState8 from '../Exercicios02/ExercicioUseState8'
+import ExercicioUseState5 from '../Exercicios02/ExercicioUseState5'
+import ExercicioUseState6 from '../Exercicios02/ExercicioUseState6'
+import ExercicioUseState7 from '../Exercicios02/ExercicioUseState7'
 
 const HomeExercicios = () => {
 
@@ -33,6 +41,22 @@ const HomeExercicios = () => {
       <Exercicio05 />
       <hr />
       <Exercicio06 />
+      <hr />
+      <ExercicioUseState1 />
+      <hr />
+      <ExercicioUseState2 />
+      <hr />
+      <ExercicioUseState3 />
+      <hr />
+      <ExercicioUseState4 />
+      <hr />
+      <ExercicioUseState5 />
+      <hr />
+      <ExercicioUseState6 />
+      <hr />
+      <ExercicioUseState7 />
+      <hr />
+      <ExercicioUseState8 />
     </div>
   )
 }
