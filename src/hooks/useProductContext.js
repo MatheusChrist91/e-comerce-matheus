@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from "react";
 // PRODUTOS
 import db from "../db/db"
 
-// Varivel de crição do contexto
+// Varivel de crição do contextoO
 export const ProductContext = createContext();
 
 const ProductProvider = ({ children }) => {
